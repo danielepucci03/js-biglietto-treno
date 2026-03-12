@@ -12,3 +12,8 @@ if (age < 18) {
     discount = price * 0.4;
 }
 
+const finalPrice = price - discount;
+
+//mostriamo il prezzo finale all'utente
+alert('Il prezzo del tuo biglietto è: ' + finalPrice.toFixed(2) + '€');
+
